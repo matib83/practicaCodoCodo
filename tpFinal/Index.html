@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy Code</title>
+  <link rel="icon" href="img/libro-digital.png" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="img/academycodebo_logo.svg" alt="Academy Code Logo">
+    </div>
+    <nav class="header-menu">
+      <ul>
+        <li><a href="#cursos">CURSOS</a></li>
+        <li><a href="#misCursos">MIS CURSOS</a></li>
+        <li><a href="#registro">REGISTRARSE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contenido-ppal">
+      <section class="secciones">
+        <h1>Bienvenido a Academy Code</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum assumenda, ab vero odit adipisci, ipsum
+          maxime hic consequatur repellendus tempore eum sit obcaecati praesentium neque in doloribus consequuntur quo
+          earum!</p>
+        <img src="random-image.jpg" alt="Random Image">
+      </section>
+
+      <section class="secciones">
+        <h2 id="cursos">CURSOS</h2>
+        <div class="curso">
+          <h3>Curso de Javascript</h3>
+          <img src="img/JS.jpg" width="200px" alt="Javascript Image">
+          <!-- Otros cursos aquí -->
+      </section>
+
+      <section class="secciones">
+        <h2 id="misCursos">MIS CURSOS</h2>
+        <div class="curso">
+          <h3>Curso de Javascript</h3>
+          <img src="img/JS.jpg" width="200px" alt="Javascript Image">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/QoC4RxNIs5M?si=vV86cON0ti1zX1eU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- Otros cursos aquí -->
+      </section>
+
+      <section class="secciones">
+        <h2 id="registro">REGISTRARSE</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Registro</legend>
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="birthday">Fecha de nacimiento:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="interes">Interés en cursos:</label>
+            <select id="interes" name="interes">
+              <option value="none">Elija curso gratuito</option>
+              <option value="frontend">JavaScript</option>
+              <option value="backend">PHP</option>
+              <option value="backend">MongoDb</option>
+              <!-- Otros intereses aquí -->
+            </select><br><br>
+            <label for="experiencia">Nivel de experiencia:</label>
+            <ul style="list-style: none; padding: 0">
+              <li><input type="radio" name="level" value="1" checked>Principiante </li>
+              <li><input type="radio" name="level" value="2">Intermedio</li>
+              <li><input type="radio" name="level" value="3">Avanzado</li>
+            </ul>
+            <input type="submit" value="Registrarse">
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="redes-sociales">
+      <a href="www.facebook.com/matib83" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="#">YouTube</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <hr>
+    <div class="links-secciones">
+      <a href="#">NOSOTROS</a>
+      <a href="#">ALUMNOS</a>
+      <a href="#">EQUIPO</a>
+    </div>
+    <hr>
+    <div class="terminos">
+      <a href="#">Términos y condiciones</a>
+    </div>
+  </footer>
+</body>
+
+</html>

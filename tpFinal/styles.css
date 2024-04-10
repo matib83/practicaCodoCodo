@@ -1,0 +1,106 @@
+/* styles.css */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  height: 100%;
+}
+
+body,
+header,
+main,
+footer {
+  border: 3px red solid;
+  min-height: 50px;
+  margin: 0.5rem;
+  min-width: 400px;
+}
+
+/* Encabezado */
+header {
+  background-color: #0099cc;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Courier New', monospace;
+  color: aqua;
+  background-color: #333333;
+}
+
+main {
+  min-height: 200px;
+}
+
+.header-logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main>div {
+  border: 2px blue solid;
+  min-height: 180px;
+  margin: 0.5rem;
+}
+
+main>aside {
+  border: 2px blue solid;
+  min-height: 180px;
+  margin: 0.5rem;
+}
+
+.secciones {
+  border: 2px green solid;
+  min-height: 50px;
+  margin: 0.5rem;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Secciones */
+section {
+  padding: 50px 0;
+}
+
+/* Pie de página */
+footer {
+  background-color: #666666;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  /* Para asegurar que el pie de página se muestre correctamente */
+  z-index: 1;
+  /* Ajustar la capa z-index para asegurar que esté por encima de otros elementos */
+}
+
+/* Agregar estilos para los enlaces dentro del pie de página */
+footer a {
+  color: #0099cc;
+  /* Cambiar color de los enlaces a azul */
+  text-decoration: none;
+  /* Eliminar subrayado */
+  margin: 0 10px;
+  /* Agregar margen a los enlaces */
+}
+
+/* Otros estilos específicos según tu diseño */

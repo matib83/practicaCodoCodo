@@ -1,0 +1,79 @@
+LENGUAJES DE PROGRAMACION
+
+JAVA
+Iníciate desde cero en el lenguaje mejor remunerado del sector de IT. Con Java, desarrollarás aplicaciones  versátiles, efectivas y ligeras.
+
+<p class="flex items-center h-[60px] xs:h-[50px] font-semibold pb-1 text-left leading-[24px] xs:leading-[26px] lg:leading-[24px] text-[20px] group-[.horizontal]:lg:pb-0">Introducción a Java</p>
+
+<p class="flex items-center h-[60px] xs:h-[50px] font-semibold pb-1 text-left leading-[24px] xs:leading-[26px] lg:leading-[24px] text-[20px] group-[.horizontal]:lg:pb-0">Introducción al Paradigma de Objetos</p>
+
+<p class="flex items-center h-[60px] xs:h-[50px] font-semibold pb-1 text-left leading-[24px] xs:leading-[26px] lg:leading-[24px] text-[20px] group-[.horizontal]:lg:pb-0">Java Web API</p>
+
+.NET
+
+Python
+
+Node.js
+
+Javascript
+
+Front End Web Developer
+
+Android
+
+Blockchain
+
+PHP
+
+
+
+
+BASES DE DATOS
+
+MySQL
+
+SQL Server
+
+Oracle
+
+Mongo DB
+
+
+
+
+DISEÑO
+
+Diseño Web
+
+Diseño UI/UX
+
+Diseño Gráfico
+
+Diseño Multimedia
+
+Diseño Cad
+
+
+
+
+
+INFRAESTRUCTURA Y CLOUD
+
+Linux
+
+Redes informáticas
+
+Azure & Windows Server
+
+DevOps
+
+Azure
+
+Cloud
+
+
+
+
+
+
+
