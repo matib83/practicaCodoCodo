@@ -1,0 +1,29 @@
+/* Como 16px es el tamaño predeterminado, se fija el valor en 62.5%, que equivale a que el valor referencial sea 10px */
+:root {
+    font-size: 62.5%; /* 10px */
+ }
+
+body {
+    border: 0.5rem red solid;
+    margin: 0.5rem;
+}
+
+header {
+    border: 0.3rem rgb(17, 13, 226) solid;
+    margin: 0.5rem;
+}
+
+main {
+    border: 0.3rem rgb(239, 9, 247) solid;
+    margin: 0.5rem;
+}
+
+section {
+    border: 0.1rem #0bb9c5 solid;
+    margin: 0.5rem;
+}
+
+footer {
+    border: 0.3rem #835602 solid;
+    margin: 0.5rem;
+}

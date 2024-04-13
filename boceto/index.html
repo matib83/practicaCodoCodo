@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boceto para pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+   <header>
+        <div><!-- LOGO Y LINK AL INICIO -->
+            <a href="/" class="router-link-active router-link-exact-active flex flex-col justify-center items-center il:items-start w-auto" data-v-5a51e7b5="" aria-current="page">
+                <img src="#" alt="Imagotipo de EducacionIT a color" width="166" height="26" class="min-w-[166px] w-[166px] min-h-[26px] h-[26px]" data-v-5a51e7b5="">
+            </a>
+        </div>
+        <nav><!-- NAVEGADOR POR LAS OTRAS SECCIONES -->
+            <ul>
+                <li><a href="#cursos">CURSOS</a></li>
+                <li><a href="#misCursos">MIS CURSOS</a></li>
+                <li><a href="#registro">REGISTRARSE</a></li>
+                </ul>
+        </nav>
+   </header>
+
+   <main>
+        <section><!-- SECCION 1. INICIO -->
+            <div>
+                <div><!-- TITULO -->
+                    <h1>TITULO PRINCIPAL</h1>
+                </div>
+                <div><!-- Cierre pagina principal -->
+                    <P>Empresas que avalan</P>
+                </div>
+                <div><!-- Imagenes de empresas -->
+                    <img aria-hidden="true" src="#" alt="Imagotipo de Mercado Libre color blanco" width="170" height="35" class="contrast-[3] brightness-110 mx-2 min-h-[35px] max-w-[80px] lg:max-h-[50px] lg:max-w-[170px]">
+                </div>                
+            </div>
+            <hr>
+        </section>
+
+        <section><!-- SECCION 2. CURSOS -->
+            <div>
+                <h2>CURSOS</h2>
+            </div>
+            <div><!-- curso 1 -->
+                <h3>Titulo curso 1</h3>
+                <img src="#" alt="Imagen CURSO 1">
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam accusamus, et ullam officia!</P>
+            </div>
+            <div><!-- curso 2 -->
+                <h3>Titulo curso 2</h3>
+                <img src="#" alt="Imagen CURSO 2">
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam accusamus, et ullam officia!</P>
+            </div>
+            <div><!-- curso 3 -->
+                <h3>Titulo curso 3</h3>
+                <img src="#" alt="Imagen CURSO 3">
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam accusamus, et ullam officia!</P>
+            </div>
+            <div><!-- curso 4 -->
+                <h3>Titulo curso 4</h3>
+                <img src="#" alt="Imagen CURSO 4">
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam accusamus, et ullam officia!</P>
+            </div>
+        </section>
+
+        <section><!-- SECCION 3. MIS CURSOS -->
+            <div>
+                <h2>MIS CURSOS</h2>
+            </div>
+            <div><!-- Radio buttons para controlar el carrusel -->
+                <input type="radio" id="video1" name="video" checked>
+                <input type="radio" id="video2" name="video">
+                <input type="radio" id="video3" name="video">
+            </div>
+            <div><!-- Contenedor del carrusel de videos -->
+                <iframe src="video1"></iframe>
+                <iframe src="video2"></iframe>
+                <iframe src="video3"></iframe>
+            </div>
+            <div><!-- Botones de navegación -->
+                <label for="video1">1</label>
+                <label for="video2">2</label>
+                <label for="video3">3</label>
+            </div>
+        </section>
+
+        <section><!-- SECCION 4. REGISTRARSE -->
+            <div>
+                <h2>REGISTRARSE</h2>
+            </div>
+            <div>
+                <form action="#">
+                <fieldset>
+                    <legend>Formulario de registro</legend>
+                    <label for="fname">Nombre:</label>
+                    <input type="text" id="fname" name="fname" required><br><br>
+                    <label for="lname">Apellido:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="birthday">Fecha de nacimiento:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono"><br><br>
+                    <label for="interes">Interés en cursos:</label>
+                    <select id="interes" name="interes">
+                    <option value="none">Elija curso gratuito</option>
+                    <option value="frontend">JavaScript</option>
+                    <option value="backend">PHP</option>
+                    <option value="backend">MongoDb</option>
+                    <!-- Otros intereses aquí -->
+                    </select><br><br>
+                    <label for="experiencia">Nivel de experiencia:</label>
+                    <ul style="list-style: none; padding: 0">
+                    <li><input type="radio" name="level" value="1" checked>Principiante </li>
+                    <li><input type="radio" name="level" value="2">Intermedio</li>
+                    <li><input type="radio" name="level" value="3">Avanzado</li>
+                    </ul>
+                    <input type="submit" value="Registrarse">
+                </fieldset>
+                </form>
+            </div>
+        </section>
+   </main>
+
+   <footer>
+        <div><!-- Redes sociales -->
+            <a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#" alt="isotipo facebook color blanco" width="11" height="19" loading="lazy"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#" alt="isotipo linkedin color blanco" width="11" height="19" loading="lazy"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#" alt="isotipo youtube color blanco" width="11" height="19" loading="lazy"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#" alt="isotipo instagram color blanco" width="11" height="19" loading="lazy"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#" alt="isotipo discord color blanco" width="11" height="19" loading="lazy"></a>    
+        </div>
+        <hr>
+        <div><!-- Accesos a otras areas -->
+            <div>
+                <p>Titulo 1</p>
+                <a href="#" class=""> 1 </a>
+                <a href="#" class=""> 2 </a>
+                <a href="#" class=""> 3 </a>
+            </div>
+            <div>
+                <p>Titulo 2</p>
+                <a href="#" class=""> 1 </a>
+                <a href="#" class=""> 2 </a>
+            </div>
+            <div>
+                <p>Titulo 3</p>
+                <a href="#" class=""> 1 </a>
+                <a href="#" class=""> 2 </a>
+            </div>
+        </div>
+        <hr>
+        <div><!-- Términos y condiciones -->
+            <a href="/terminos-y-condiciones" class="underline"> Términos y condiciones </a>
+            <p class="text-it-grey-100 leading-[16px] uppercase mt-2.5 md:mt-0 tracking-[1px]"><span class="font-bold"> EducacionIT. </span> Copyright 2005-2024</p>
+        </div>
+
+   </footer>
+</body>
+</html>
