@@ -21,7 +21,7 @@ footer {
 /* Encabezado */
 header {
   background-color: #0099cc;
-  padding: 10px 0;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;

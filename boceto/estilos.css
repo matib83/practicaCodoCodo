@@ -6,12 +6,33 @@
 body {
     border: 0.5rem red solid;
     margin: 0.5rem;
+    min-width: 30rem;
 }
 
 header {
     border: 0.3rem rgb(17, 13, 226) solid;
     margin: 0.5rem;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-logo img {
+    height: 5rem;
+}
+  
+nav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
 
 main {
     border: 0.3rem rgb(239, 9, 247) solid;
