@@ -6,7 +6,7 @@
 body {
     border: 0.5rem red solid;
     margin: 0.5rem;
-    min-width: 30rem;
+    min-width: 480px;
 }
 
 header {
