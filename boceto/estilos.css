@@ -6,7 +6,7 @@
 body {
     border: 0.5rem red solid;
     margin: 0.5rem;
-    min-width: 480px;
+    min-width: 300px; /* Tamaño minimo para que no se apile el menu */
 }
 
 header {
@@ -42,6 +42,35 @@ main {
 section {
     border: 0.1rem #0bb9c5 solid;
     margin: 0.5rem;
+}
+
+.secciones {
+    display: flex;
+    height: 100vh; /* Altura total de la ventana del navegador */
+}
+
+
+.home h1 {
+    color: blue;
+    font-size: 3rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+.home p{
+    color:black;
+    font-size: 2rem;
+}
+
+.home_Img {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Espacio entre las imágenes */
+}
+
+.home_Img img {
+    max-width: 15%; /* Para que las imágenes no cambien su tamaño */
 }
 
 footer {
