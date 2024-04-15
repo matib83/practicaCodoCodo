@@ -71,6 +71,7 @@ section {
 
 .home_Img img {
     max-width: 15%; /* Para que las imágenes no cambien su tamaño */
+    padding: 0.5rem;
 }
 
 footer {
