@@ -9,31 +9,41 @@
 </head>
 
 <body>
-  <!-- Radio buttons para controlar el carrusel -->
-  <input type="radio" id="video1" name="video" checked>
-  <input type="radio" id="video2" name="video">
-  <input type="radio" id="video3" name="video">
+  <div class="carrusel">
+    <!-- Radio buttons para controlar el carrusel -->
+    <input type="radio" id="video1" name="video" checked>
+    <input type="radio" id="video2" name="video">
+    <input type="radio" id="video3" name="video">
 
-  <!-- Contenedor del carrusel de videos -->
-  <div class="video-container">
-    <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/3nYLTiY5skU?si=WCaFGFAP_m9e83bw"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/hrxjBqZWsb0?si=v82w8pRPaX_Nl-7C"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe class="video3" width="560" height="315" src="https://www.youtube.com/embed/yB4n_K7dZV8?si=cPzutExXUxH94phX"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+    <!-- Contenedor del carrusel de videos -->
+    <div class="video-container">
+      <iframe class="video1" width="560" height="315"
+        src="https://www.youtube.com/embed/3nYLTiY5skU?si=WCaFGFAP_m9e83bw" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe class="video2" width="560" height="315"
+        src="https://www.youtube.com/embed/hrxjBqZWsb0?si=v82w8pRPaX_Nl-7C" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe class="video3" width="560" height="315"
+        src="https://www.youtube.com/embed/yB4n_K7dZV8?si=cPzutExXUxH94phX" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
-  <!-- Botones de navegación -->
-  <div class="navegacion">
-    <label for="video1">←</label>
-    <label for="video2">→</label>
+    <div class="button-container">
+      <!-- Botones de navegación -->
+      <div class="navegacion video1">
+        <label for="video2">→</label>
+      </div>
+      <div class="navegacion video2">
+        <label for="video1">←</label>
+        <label for="video3">→</label>
+      </div>
+      <div class="navegacion video3">
+        <label for="video2">←</label>
+      </div>
+    </div>
   </div>
 </body>
 

@@ -1,12 +1,14 @@
 /* Como 16px es el tamaño predeterminado, se fija el valor en 62.5%, que equivale a que el valor referencial sea 10px */
 :root {
-    font-size: 62.5%; /* 10px */
- }
+    font-size: 62.5%;
+    /* 10px */
+}
 
 body {
     border: 0.5rem red solid;
     margin: 0.5rem;
-    min-width: 300px; /* Tamaño minimo para que no se apile el menu */
+    min-width: 300px;
+    /* Tamaño minimo para que no se apile el menu */
 }
 
 header {
@@ -21,7 +23,7 @@ header {
 .header-logo img {
     height: 5rem;
 }
-  
+
 nav ul {
     list-style-type: none;
     display: inline;
@@ -32,7 +34,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-left: 20px;
-  }
+}
 
 main {
     border: 0.3rem rgb(239, 9, 247) solid;
@@ -44,34 +46,54 @@ section {
     margin: 0.5rem;
 }
 
-.secciones {
-    display: flex;
-    height: 100vh; /* Altura total de la ventana del navegador */
-}
-
-
 .home h1 {
     color: blue;
     font-size: 3rem;
     height: 15rem;
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
+    justify-content: center;
+    /* Centrar horizontalmente */
 }
 
-.home p{
-    color:black;
+.home p {
+    color: black;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .home_Img {
     display: flex;
     justify-content: center;
-    gap: 2rem; /* Espacio entre las imágenes */
+    gap: 2rem;
+    /* Espacio entre las imágenes */
 }
 
 .home_Img img {
-    max-width: 15%; /* Para que las imágenes no cambien su tamaño */
+    max-width: 15%;
+    /* Para que las imágenes no cambien su tamaño */
     padding: 0.5rem;
+}
+
+.cursos h2 {
+    color: rgb(0, 213, 255);
+    font-size: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    /* Centrar horizontalmente */
+}
+
+.cursos h3 {
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos img {
+    max-width: 50%;
+    /* Para que las imágenes no cambien su tamaño */
 }
 
 footer {
