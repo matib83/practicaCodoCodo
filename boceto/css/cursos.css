@@ -1,45 +1,33 @@
-.cursos h2 {
+.section-cursos h2 {
   color: rgb(0, 213, 255);
   font-size: 2rem;
   height: 2rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   /* Centrar horizontalmente */
 }
 
-.cursos h3 {
-  color: black;
-  font-size: 2rem;
+.cursos {
   display: flex;
-  justify-content: center;
-}
-
-.cursos img {
-  max-width: 10%;
-  /* Para que las imágenes no cambien su tamaño */
+  flex-wrap: wrap;
+  background: steelblue;
+  width: 200;
 }
 
 .curso {
-  display: grid;
-  flex-direction: column;
-  background: steelblue;
-  flex-wrap: wrap;
-  width: 30rem;
-  justify-content: stretch;
-  align-items: stretch;
-  justify-content: stretch;
-  align-content: stretch;
+  background: grey;
+  width: 50%;
 }
 
 .curso h3 {
-  justify-content: stretch;
   color: rgb(166, 52, 10);
+  font-size: 2rem;
 }
 
 .curso img {
-  justify-content: stretch;
+  max-width: 30%;
 }
 
 .curso p {
-  justify-content: stretch;
+  font-size: 1.7rem;
 }
