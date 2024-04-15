@@ -75,27 +75,6 @@ section {
     padding: 0.5rem;
 }
 
-.cursos h2 {
-    color: rgb(0, 213, 255);
-    font-size: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    /* Centrar horizontalmente */
-}
-
-.cursos h3 {
-    color: black;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-}
-
-.cursos img {
-    max-width: 50%;
-    /* Para que las imágenes no cambien su tamaño */
-}
-
 footer {
     border: 0.3rem #835602 solid;
     margin: 0.5rem;

@@ -1,0 +1,45 @@
+.cursos h2 {
+  color: rgb(0, 213, 255);
+  font-size: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  /* Centrar horizontalmente */
+}
+
+.cursos h3 {
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cursos img {
+  max-width: 10%;
+  /* Para que las imágenes no cambien su tamaño */
+}
+
+.curso {
+  display: grid;
+  flex-direction: column;
+  background: steelblue;
+  flex-wrap: wrap;
+  width: 30rem;
+  justify-content: stretch;
+  align-items: stretch;
+  justify-content: stretch;
+  align-content: stretch;
+}
+
+.curso h3 {
+  justify-content: stretch;
+  color: rgb(166, 52, 10);
+}
+
+.curso img {
+  justify-content: stretch;
+}
+
+.curso p {
+  justify-content: stretch;
+}
