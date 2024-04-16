@@ -51,14 +51,14 @@
 
 @media (max-width: 480px) {
   .curso {
-    width: calc(100% - 20px);
+    width: calc(100% - 2rem);
     /* Un curso por fila en pantallas muy pequeñas */
   }
 }
 
 @media (max-width: 768px) {
   .curso {
-    width: calc(50% - 20px);
+    width: calc(50% - 2rem);
     /* Dos cursos por fila en pantallas pequeñas */
   }
 }
