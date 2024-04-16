@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/cursos.css">
 	<link rel="stylesheet" href="css/carrusel.css">
+	<link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
 		</section>
 		<hr>
 		<section class="section-cursos" aria-label="Cursos disponibles"><!-- SECCION 2. CURSOS -->
-			<h2>CURSOS</h2>
+			<h2 id="cursos">CURSOS</h2>
 			<div class="cursos">
 				<div class="curso"><!-- curso 1 -->
 					<h3>HTML 5</h3>
@@ -93,14 +94,14 @@
 				</div>
 				<div class="curso"><!-- curso 7 -->
 					<h3>PYTHON</h3>
-					<img src="media/img/python.svg alt=" Imagen CURSO 7">
+					<img src="media/img/python.svg" alt="Imagen CURSO 7">
 					<P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
 						consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
 						accusamus, et ullam officia!</P>
 				</div>
 				<div class="curso"><!-- curso 8 -->
 					<h3>SQL SERVER</h3>
-					<img src="media/img/sql server.svg" alt="Imagen CURSO 8">
+					<img src="media/img/sqlserver.svg" alt="Imagen CURSO 8">
 					<P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
 						consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
 						accusamus, et ullam officia!</P>
@@ -123,17 +124,14 @@
 				<div class="video-container">
 					<iframe class="video1" width="560" height="315"
 						src="https://www.youtube.com/embed/3nYLTiY5skU?si=WCaFGFAP_m9e83bw" title="YouTube video player"
-						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					<iframe class="video2" width="560" height="315"
 						src="https://www.youtube.com/embed/hrxjBqZWsb0?si=v82w8pRPaX_Nl-7C" title="YouTube video player"
-						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					<iframe class="video3" width="560" height="315"
 						src="https://www.youtube.com/embed/yB4n_K7dZV8?si=cPzutExXUxH94phX" title="YouTube video player"
-						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
@@ -193,43 +191,53 @@
 		</section>
 	</main>
 
-	<footer>
-		<div><!-- Redes sociales -->
-			<a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#"
-					alt="isotipo facebook color blanco" width="11" height="19" loading="lazy"></a>
-			<a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#"
-					alt="isotipo linkedin color blanco" width="11" height="19" loading="lazy"></a>
-			<a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#"
-					alt="isotipo youtube color blanco" width="11" height="19" loading="lazy"></a>
-			<a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#"
-					alt="isotipo instagram color blanco" width="11" height="19" loading="lazy"></a>
-			<a href="#" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center"><img src="#"
-					alt="isotipo discord color blanco" width="11" height="19" loading="lazy"></a>
+	<footer class="footer">
+		<div class="redes_sociales"><!-- Redes sociales -->
+			<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+				<img src="media/icon/facebook.svg" alt="Logo facebook" loading="lazy">
+			</a>
+			<a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+				<img src="/boceto/media/icon/linkedin.svg" alt="Logo linkedin" loading="lazy">
+			</a>
+			<a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+				<img src="/boceto/media/icon/youtube.svg" alt="Logo youtube" loading="lazy">
+			</a>
+			<a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+				<img src="media/icon/instagram.svg" alt="logo instagram" loading="lazy">
+			</a>
+			<a href="https://www.discord.com" target="_blank" rel="noopener noreferrer">
+				<img src="media/icon/discord.svg" alt="Logo discord" loading="lazy">
+			</a>
 		</div>
 		<hr>
-		<div><!-- Accesos a otras areas -->
+		<div class="footer_links"><!-- Accesos a otras areas -->
 			<div>
-				<p>Titulo 1</p>
-				<a href="#" class=""> 1 </a>
-				<a href="#" class=""> 2 </a>
-				<a href="#" class=""> 3 </a>
+				<h4>NOSOTROS</h4>
+				<ul>
+					<li><a href="#" class=""> Equipo </a></li>
+					<li><a href="#" class=""> En el mundo </a></li>
+					<li><a href="#" class=""> Pregustas frecuentes </a></li>
+				</ul>
 			</div>
 			<div>
-				<p>Titulo 2</p>
-				<a href="#" class=""> 1 </a>
-				<a href="#" class=""> 2 </a>
+				<h4>ALUMNOS</h4>
+				<ul>
+					<li><a href="#" class="">Alumni</a></li>
+					<li><a href="#" class="">Blog</a></li>
+				</ul>
 			</div>
 			<div>
-				<p>Titulo 3</p>
-				<a href="#" class=""> 1 </a>
-				<a href="#" class=""> 2 </a>
+				<h4>CORPORATIVO</h4>
+				<ul>
+					<li><a href="#" class="">Trabaja con nosotros</a></li>
+					<li><a href="#" class="">Capacitaciones</a></li>
+				</ul>
 			</div>
 		</div>
 		<hr>
 		<div><!-- Términos y condiciones -->
-			<a href="/terminos-y-condiciones" class="underline"> Términos y condiciones </a>
-			<p class="text-it-grey-100 leading-[16px] uppercase mt-2.5 md:mt-0 tracking-[1px]"><span class="font-bold">
-					EducacionIT. </span> Copyright 2005-2024</p>
+			<a href="/boceto/terminos-y-condiciones.html" target="_blank" class="underline"> Términos y condiciones </a>
+			<p><span class="font-bold">Academy Code </span> Copyright 2024</p>
 		</div>
 
 	</footer>
