@@ -55,3 +55,10 @@
     /* Un curso por fila en pantallas muy pequeñas */
   }
 }
+
+@media (max-width: 768px) {
+  .curso {
+    width: calc(50% - 20px);
+    /* Dos cursos por fila en pantallas pequeñas */
+  }
+}
