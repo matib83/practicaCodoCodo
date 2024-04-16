@@ -1,9 +1,10 @@
 .footer {
-  border: 0.3rem #835602 solid;
-  margin: 0.5rem;
+  /*border: 0.3rem #835602 solid;*/
+  margin: 5rem;
 }
 
 .redes_sociales {
+  margin: 5rem;
   display: flex;
   /* Utilizamos flexbox para los iconos */
   justify-content: center;
@@ -55,4 +56,9 @@
   color: rgb(13, 14, 14);
   font-size: 2rem;
   text-decoration: none;
+}
+
+.footer_TyC {
+  margin: 3rem;
+  /* Ajusta el espacio entre los elementos de la lista */
 }

@@ -76,3 +76,12 @@ section {
     max-width: 10%;
     /* Para que las imágenes no cambien su tamaño */
 }
+
+.secciones h2 {
+    color: rgb(36, 26, 230);
+    font-size: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
