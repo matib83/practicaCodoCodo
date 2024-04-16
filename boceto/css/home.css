@@ -5,14 +5,14 @@
 }
 
 body {
-    border: 0.5rem red solid;
+    /*border: 0.5rem red solid;*/
     margin: 0.5rem;
     min-width: 300px;
     /* Tamaño minimo para que no se apile el menu */
 }
 
 header {
-    border: 0.3rem rgb(17, 13, 226) solid;
+    /*border: 0.3rem rgb(17, 13, 226) solid;*/
     margin: 0.5rem;
     padding: 0.1rem;
     display: flex;
@@ -40,12 +40,12 @@ a {
 }
 
 main {
-    border: 0.3rem rgb(239, 9, 247) solid;
+    /*border: 0.3rem rgb(239, 9, 247) solid;*/
     margin: 0.5rem;
 }
 
 section {
-    border: 0.1rem #0bb9c5 solid;
+    /*border: 0.1rem #0bb9c5 solid;*/
     margin: 0.5rem;
 }
 
